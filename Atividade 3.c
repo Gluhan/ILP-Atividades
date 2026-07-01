@@ -17,7 +17,7 @@ void proxima_palavra(char *w, char *resultado) {
 
     /* 2º: se o indice não existe, não há palavra maior */
     if (i < 0) {
-        strcpy(resultado, "no answer");
+        strcpy(resultado, "sem resposta");
         return;
     }
 
